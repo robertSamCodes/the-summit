@@ -1,0 +1,42 @@
+a {
+  color: #345434;
+}
+
+a:hover {
+  color: #356434;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  background-color: green;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn:active {
+  color: blue;
+}
+
+.activity {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.activity:hover {
+  color: white;
+  font-size: 20px;
+}
+.activity:active {
+  color: whitesmoke;
+}
